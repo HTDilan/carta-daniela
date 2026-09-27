@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About - dIlan-mariano</title>
+  <title>ño she que titulo poner:)</title>
 
   <style>
     body {
@@ -11,27 +11,73 @@
       margin: 0;
       padding: 0;
       font-size: 16px;
+      background-color: #121212;
+      color: #ffffff;
     }
 
     header {
-      background-color: #d9d9d9;
-      padding: 12px;
+      background-color: #000000;
+      padding: 15px;
     }
 
-    nav a {
-      margin-right: 15px;
-      font-weight: bold;
+    nav {
+      display: flex;
+      justify-content: flex-start;
+      gap: 20px;
+    }
+
+    .menu-link {
+      color: #ffffff;
       text-decoration: none;
-      color: black;
-      font-size: 1.1rem;
+      font-size: 18px;
+      font-weight: bold;
+      position: relative;
+      padding: 6px 0;
+      display: inline-block;
+      transition: color 0.3s ease;
     }
 
-    nav a.active {
-      color: blue;
+    /* Crea la línea oculta debajo del texto */
+    .menu-link::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #ff477e;
+      transform: scaleX(0);
+      transform-origin: bottom center;
+      transition: transform 0.3s ease-out;
+    }
+
+    /* Efecto cuando el mouse pasa por encima o se toca con el dedo */
+    .menu-link:hover::after, .menu-link.active::after {
+      transform: scaleX(1);
+    }
+
+    .menu-link:hover, .menu-link.active {
+      color: #ff477e;
     }
 
     .contenido {
       padding: 20px;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    a {
+      color: #ff477e;
+      text-decoration: underline;
+    }
+
+    img {
+      display: block;
+      margin: 15px 0;
+      border-radius: 8px;
     }
 
     @media (min-width: 768px) {
@@ -49,125 +95,87 @@
 
   <header>
     <nav>
-      <a href="index.html">cartita</a>
-      <a href="ño she que titulo poner:).html" class="active">ño she que titulo poner:)</a>
+      <a href="index.html" class="menu-link">cartitas</a>
+      <a href="ño she que titulo poner:).html" class="menu-link active">ño she que titulo poner:)</a>
     </nav>
   </header>
 
   <div class="contenido">
     <h1>hi hi</h1>
     <p>aqui ño she que poner</p>
- <p>mmmm ño, ño she que poner pero te amo mua</p>
-    
-     <br>
-     <p>-tengo frio wei
-     <br>
-       -ponte en una esquina wei
-      <br>
-       -¿para que?
-       <br>
-       -porque las esquinas estan en 90 grados.
-       <br>
-       jajajaja </p>
- <img src="https://png.pngtree.com/png-clipart/20240420/original/pngtree-cute-cat-laughing-happily-png-image_14912905.png" width="100" height="100">
-
-
-
+    <p>mmmm ño, ño she que poner pero te amo mua</p>
     
     <br>
-<p>-jeje ola
-  <br>
-  -no otra vez por favor...
-  <br>
-  -sabes que toma un perro en verano?
-  <br>
-  -....
-  <br>
-  -un heladog, jeje bro baja ese machete era un chiste.</p>
+    <p>-tengo frio wei<br>
+       -ponte en una esquina wei<br>
+       -¿para que?<br>
+       -porque las esquinas estan en 90 grados.<br>
+       jajajaja 
+    </p>
+    <img src="https://png.pngtree.com/png-clipart/20240420/original/pngtree-cute-cat-laughing-happily-png-image_14912905.png" width="100" height="100">
+
     <br>
-<img src="https://tse1.mm.bing.net/th/id/OIP.J1sBxpqpxwmWuyKYkXLbPAAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="100" height="100">
+    <p>-jeje ola<br>
+       -no otra vez por favor...<br>
+       -sabes que toma un perro en verano?<br>
+       -....<br>
+       -un heladog, jeje bro baja ese machete era un chiste.
+    </p>
     <br>
-     <p>acaso eres redstone?
-       <br>
-       o por que me tienes el piston bien parado?
-        <br>
-       Un poeta desconocido jajaja </p>
-        <br>
-        <img src="https://tse3.mm.bing.net/th/id/OIP.styBQRLhEBs0GhPmYEBRiwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="150" height="110">
- <br> 
+    <img src="https://tse1.mm.bing.net/th/id/OIP.J1sBxpqpxwmWuyKYkXLbPAAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="100" height="100">
+    <br>
+    <p>acaso eres redstone?<br>
+       o por que me tienes el piston bien parado?<br>
+       Un poeta desconocido jajaja 
+    </p>
+    <br>
+    <img src="https://tse3.mm.bing.net/th/id/OIP.styBQRLhEBs0GhPmYEBRiwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="150" height="110">
+    <br> 
     <p>si el cielo perdiera sus estrellas,aun tendria el brillo de tus ojos para iluminar mis noches</p>
-  <br>
+    <br>
     <img src="https://cdn.pixabay.com/photo/2023/04/03/18/35/ai-generated-7897641_640.jpg" width="150" height="100">
-<br>
-    <p>
-  Cuando dice
-      <br>
-  que es fea pero
-      <br>
-  yo
-      <br>
-  desde que la
-      <br>
-  conoci
-      <br>
-   me dejaron de
-      <br>
-   gustar
-      <br>
-   los travestis  
-      <br>
-      jeje es bromita lo de los travestis mi vida
-      <br>
-      <img src="https://thumbs.dreamstime.com/b/hermosa-flor-de-rosa-aislada-en-fondo-blanco-para-amante-y-boda-171686242.jpg" width="100" height="100">   
-  <br>
-      <p><a href="https://vt.tiktok.com/ZS49PgvHn/" target="_blank">midaaa mi amor</a></p>
-
+    <br>
+    <p>Cuando dice<br>
+       que es fea pero<br>
+       yo<br>
+       desde que la<br>
+       conoci<br>
+       me dejaron de<br>
+       gustar<br>
+       los travestis<br>
+       jeje es bromita lo de los travestis mi vida
+    </p>
+    <img src="https://thumbs.dreamstime.com/b/hermosa-flor-de-rosa-aislada-en-fondo-blanco-para-amante-y-boda-171686242.jpg" width="100" height="100">   
+    <br>
+    <p><a href="https://vt.tiktok.com/ZS49PgvHn/" target="_blank">midaaa mi amor</a></p>
     <br>
       
-      <p>tus ojos son mi lugar favorito para perderme.</p>
-
-<br>
-     <p>me enamore de ti de una manera que no sabia que era posible, y cada dia me anamoro un poco mas.</p>
-
-      <br>
-
-  <p>si supieras cuanto te pienso, te sorprenderias de lo poco que duermo.</p>
+    <p>tus ojos son mi lugar favorito para perderme.</p>
     <br>
-    
-<p>estimado, realmente la amo con cada parte de mi alma y corazon, por ella volvio a darle brillos a mis ojosy tengo miedo de que algun dia ella se interese por alguien mas lindo.</p>
-<br>
- <p>si me preguntaran que es la felicidad, mo diria una palabra, diria tu nombre.</p>
+    <p>me enamore de ti de una manera que no sabia que era posible, y cada dia me anamoro un poco mas.</p>
+    <br>
+
+    <p>si supieras cuanto te pienso, te sorprenderias de lo poco que duermo.</p>
+    <br>
+    <p>estimado, realmente la amo con cada parte de mi alma y corazon, por ella volvio a darle brillos a mis ojosy tengo miedo de que algun dia ella se interese por alguien mas lindo.</p>
+    <br>
+    <p>si me preguntaran que es la felicidad, mo diria una palabra, diria tu nombre.</p>
     <br>
     <p>si fuera por mi pasaria todo el dia abrazandote, por que eres la unica que me da la mayor felicidad en este mundo.</p>
-  <br>
-    <p>tung tung sahur</p>
-<br>
-    <p>gracias por darme el amor que nadie me dio y por tenerme paciencia e intentar comprenderme.</p>
-<br>
-    <p>-oye we te cuento un chiste
     <br>
-      -vava we
-      <br>
-      -por que el inodoro odia los veranos
-      <br>
-      -por que we
-      <br>
-      -por que esta aburrido de ver-anos XDDDDD
-      <br>
-      -XDDDDDDD jajsjsjjaja
+    <p>tung tung sahur</p>
+    <br>
+    <p>gracias por darme el amor que nadie me dio y por tenerme paciencia e intentar comprenderme.</p>
+    <br>
+    <p>-oye we te cuento un chiste<br>
+       -vava we<br>
+       -por que el inodoro odia los veranos<br>
+       -por que we<br>
+       -por que esta aburrido de ver-anos XDDDDD<br>
+       -XDDDDDDD jajsjsjjaja
     </p>
+  </div>
 
-
-
-    
-
-    
-
-
-
-  
-</div>
-
+  <script src="script.js"></script>
 </body>
 </html>
-
